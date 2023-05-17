@@ -6,7 +6,7 @@ from calculator_adapter import run
 assert run("5 * 5").output == 25
 assert run("5 / 5").output == 1
 assert run("5 - 5").output == 0
-assert run("5 + 5").output == 10
+assert run("5 + 6").output == 11
 
 
 print("All tests passed!")
